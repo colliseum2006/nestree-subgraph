@@ -1,0 +1,34 @@
+type ReferralDrop @entity {
+  "This entity represents EGG Referral Drop"
+  id: ID!
+  "Total Referral Drop "
+  value: BigInt!
+ }
+type Transfer @entity {
+  "This entity represents EGG Transfer"
+  id: ID!
+  "Total amount of Transferred EGG"
+  value: BigInt!
+}
+type Locked @entity {
+  "This entity represents Locked EGG"
+  id: ID!
+  "User address"
+  address: String!
+  "User balances"
+  balance: BigInt!
+}
+type Burn @entity {
+  "This entity represents Burn EGG"
+  id: ID!
+  "User address"
+  address: String!
+  "Burned"
+  burned: BigInt!
+}
+type ExampleEntity @entity {
+  id: ID!
+  count: BigInt!
+  from: Bytes! # address
+  to1: Bytes! # address
+}
