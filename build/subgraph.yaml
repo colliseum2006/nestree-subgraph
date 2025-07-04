@@ -54,3 +54,4 @@ dataSources:
         - event: RemoveAllowed(indexed address)
           handler: handleRemoveAllowed
       file: EGG\EGG.wasm
+//top code
