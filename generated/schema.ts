@@ -247,3 +247,4 @@ export class ExampleEntity extends Entity {
     this.set("to1", Value.fromBytes(value));
   }
 }
+//great code
